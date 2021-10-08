@@ -41,6 +41,12 @@ You can add/remove values from the spy pixel list any time you want. We seldom d
 
 ##
 
+**Question:** I have an issue, where can I get help?
+
+**Answer:** The reason we disabled issues on here is because we just don't have the capacity to offer support on this project. We'd recommend asking on [Laracasts](https://laracasts.com), Stack Overflow or in the [Serverless Laravel](https://serverlesslaravelcourse.com/) slack group.
+
+##
+
 **Question:** Why are spy pixels bad?
 
 **Answer:** Fathom cofounder, Paul Jarvis, has written more [here](https://usefathom.com/blog/spy).
