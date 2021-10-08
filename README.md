@@ -1,7 +1,7 @@
 ![share](https://user-images.githubusercontent.com/537943/136579705-7457d0ec-4b9e-44d5-a980-a227a8de223a.png)
 
 # Phantom Analyzer
-Phantom Analyzer was a tool we [launched](https://www.producthunt.com/posts/phantom-analyzer) during Halloween 2020. It's a much simpler version of [Blacklight by The Markup](https://themarkup.org/blacklight) and we had so much fun running it for a year. We've decided to retire it, and open-source the code to let people either host it themselves, or simply learn how to run Browsershot on Laravel Vapor.
+Phantom Analyzer was a tool we [launched](https://www.producthunt.com/posts/phantom-analyzer) during Halloween 2020. It's a much simpler version of [Blacklight by The Markup](https://themarkup.org/blacklight) and we had so much fun running it for a year. We've decided to retire it, and open-source the code to let people either host it themselves, or simply learn how to run Browsershot on Laravel Vapor. This tool is perfect for companies who might want a quick way to audit vendors or companies they're working with.
 
 ## Requirements
 The following requirements are how we ran Phantom Analyzer.
@@ -15,6 +15,9 @@ You absolutely can run it outside of Vapor, but we haven't tested that, so it's 
 # Instructions
 
 1. Create a new project in Laravel Vapor
+2. Modify the vapor.yml file we have included here to include your Vapor project ID
+3. Run `vapor deploy production` or `vapor deploy staging`
+4. Celebrate 🍾
 
 
 ## FAQ
