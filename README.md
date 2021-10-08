@@ -3,6 +3,12 @@
 # Phantom Analyzer
 Phantom Analyzer was a tool we [launched](https://www.producthunt.com/posts/phantom-analyzer) during Halloween 2020. It's a much simpler version of [Blacklight by The Markup](https://themarkup.org/blacklight) and we had so much fun running it for a year. We've decided to retire it, and open-source the code to let people either host it themselves, or simply learn how to run Browsershot on Laravel Vapor. This tool is perfect for companies who might want a quick way to audit vendors or companies they're working with.
 
+## Screenshots
+![image](https://user-images.githubusercontent.com/537943/136584971-2999eb6e-21cb-4782-a865-2f8c846833ac.png)
+![image](https://user-images.githubusercontent.com/537943/136585131-3f7565fe-bba4-4383-874f-ca2586f32aa3.png)
+
+
+
 ## Requirements
 The following requirements are how we ran Phantom Analyzer.
 
@@ -12,13 +18,13 @@ The following requirements are how we ran Phantom Analyzer.
 
 You absolutely can run it outside of Vapor, but we haven't tested that, so it's on you :)
 
-# Instructions
+## Instructions
 
 1. Create a new project in Laravel Vapor
 2. Put your Vapor Project ID into the vapor.yml file
-3. Update the `domain` property in your vapor.yml file (or remove it if desired)
+3. (optional) Add a [custom domain](https://docs.vapor.build/1.0/projects/environments.html#custom-domains) to your vapor.yml file
 4. Run `vapor deploy production` or `vapor deploy staging`
-5. In Vapor, run `pphantom:cache_spy_pixels` to populate DynamoDB (default cache driver) with the spy pixel list
+5. In Vapor, run `phantom:cache_spy_pixels` to populate DynamoDB (default cache driver) with the spy pixel list
 6. Celebrate 🍾
 
 ## Updating the spy pixel list
