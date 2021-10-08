@@ -52,6 +52,6 @@ You can add/remove values from the spy pixel list any time you want. We seldom d
 **Answer:** Fathom cofounder, Paul Jarvis, has written more [here](https://usefathom.com/blog/spy).
 
 ## Disclaimer
-* We offer no kind of liability on this software, or any guarantees. This software is provided as-is.
+* We offer no kind of liability on this software, or any guarantees. This software is provided as-is and we accept zero legal responsibility for any issues. We ran this in production for a year, and had no problems.
 * We've performed an audit on the codebase, and added credit where it's due, but we cannot guarantee that we've caught everything. For example, we may have used code from StackOverflow or GitHub gists to solve a problem. We've added credit where we can find the source but if we haven't credited you, please contact us and we'll get you added.
 * We will not be maintaining this, keeping it up to date or anything else. This is for reference purposes only and provided as-is.
