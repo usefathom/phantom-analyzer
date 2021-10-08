@@ -1,4 +1,4 @@
-id: 14779
+id: 24891
 name: phantom-analyzer
 separate-vendor: true
 environments:
@@ -7,9 +7,6 @@ environments:
         cli-memory: 2048
         cli-timeout: 180
         warm: 500
-        domain:
-          - usephantom.com
-          - production.usephantom.com
         build:
           - 'composer install --no-dev --classmap-authoritative'
         layers:
