@@ -41,7 +41,7 @@
         </div><!--rapper-->
 
         <!-- Fathom - beautiful, simple website analytics -->
-        <script src="https://cdn.usefathom.com/script.js" data-site="YOUR-SITE-ID" defer></script>
+        <!-- <script src="https://cdn.usefathom.com/script.js" data-site="YOUR-SITE-ID" defer></script> -->
         <!-- / Fathom -->
     </body>
 
