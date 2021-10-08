@@ -24,7 +24,7 @@
     @csrf
 
     <input type="text" placeholder="Enter a URL" id="url" name="url" autofocus required>
-    <button type="submit" onclick="javascript:window.fathom.trackGoal('CHVQFCDK', 0);">Scan -></button>
+    <button type="submit">Scan -></button>
 </form>
 @endif
 
