@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('credentials/A5F8V2DkAT4D1APRhFmS', 'PhantomController@clown');
 Route::get('proceed', 'PhantomController@proceed');
 Route::get('failed', 'PhantomController@failed');
 Route::get('/ping/{host}', 'PhantomController@ping');
