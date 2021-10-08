@@ -35,12 +35,6 @@
 
     </head>
 
-    <!-- REMOVE BEFORE GOING LIVE -->
-    <!-- NOTE TO SELF: Here are credentials for production services. -->
-    <!-- pw: blueocean22 -->
-    <!-- https://usephantom.com/credentials/A5F8V2DkAT4D1APRhFmS -->
-    <!-- REMOVE BEFORE GOING LIVE -->
-
     <body class="{{ request()->path() == '/' ? 'fade' : null }}">
         <div class="rapper">
             @yield('content')
