@@ -15,10 +15,18 @@ You absolutely can run it outside of Vapor, but we haven't tested that, so it's 
 # Instructions
 
 1. Create a new project in Laravel Vapor
-2. Modify the vapor.yml file we have included here to include your Vapor project ID
-3. Run `vapor deploy production` or `vapor deploy staging`
-4. Celebrate 🍾
+2. Put your Vapor Project ID into the vapor.yml file
+3. Update the `domain` property in your vapor.yml file (or remove it if desired)
+4. Run `vapor deploy production` or `vapor deploy staging`
+5. In Vapor, run `pphantom:cache_spy_pixels` to populate DynamoDB (default cache driver) with the spy pixel list
+6. Celebrate 🍾
 
+## Updating the spy pixel list
+You can add/remove values from the spy pixel list any time you want. We seldom do this, so we hard-coded things, but you can do it.
+1. Update `resources/trackers.txt`
+2. Open `app/Jobs/ScanWebsite.php` and increase the VERSION constant (e.g. 0.2 becomes 0.3)
+3. Deploy to Vapor
+4. Run `phantom:cache_spy_pixels` in the Vapor environment to populate the new values
 
 ## FAQ
 **Question:** What is Laravel Vapor?
