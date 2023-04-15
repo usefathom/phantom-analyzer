@@ -7,7 +7,8 @@ Phantom Analyzer was a tool we [launched](https://www.producthunt.com/posts/phan
 ![image](https://user-images.githubusercontent.com/537943/136584971-2999eb6e-21cb-4782-a865-2f8c846833ac.png)
 ![image](https://user-images.githubusercontent.com/537943/136585131-3f7565fe-bba4-4383-874f-ca2586f32aa3.png)
 
-
+## Note
+This codebase is not actively maintained.
 
 ## Requirements
 The following requirements are how we ran Phantom Analyzer.
